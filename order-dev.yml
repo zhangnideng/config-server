@@ -6,6 +6,11 @@ spring:
         username: root
         password: bqitpw
         url: jdbc:mysql://192.168.0.59:3306/springcloud?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    rabbitmq:
+        host: 127.0.0.1
+        port: 5762
+        username: guest
+        password: guest
 
 eureka:
     client:
