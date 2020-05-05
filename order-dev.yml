@@ -15,3 +15,5 @@ server:
     port: 8082
 
 env: dev2
+
+label: release
