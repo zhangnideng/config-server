@@ -24,3 +24,7 @@ server:
 
 env:
     dev6
+    
+girl:
+    name: fxq
+    age: 18
