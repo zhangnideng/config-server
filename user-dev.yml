@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: bqitpw
+        url: jdbc:mysql://192.168.0.59:3306/springcloud?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    rabbitmq:
+        host: 112.65.124.54
+        port: 11056
+        username: admin
+        password: admin
+        virtual-host: /
+        listener:
+            acknowledge-mode: MANUAL
+
+    jpa:
+        show-sql: true
